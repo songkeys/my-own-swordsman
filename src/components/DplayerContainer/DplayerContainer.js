@@ -41,15 +41,16 @@ export default class DplayerContainer extends Component {
   }
 
   render() {
+    const listIndex = this.props.id ? parseInt(this.props.id, 10) - 1 : 0
     return (
       <div className="dplayer-container">
         {this.state.loaded && (
           <Dplayer
             video={{
-              url: prefix + this.state.list[parseInt(this.props.id, 10) - 1],
+              url: prefix + this.state.list[listIndex],
             }}
             danmaku={{
-              id: this.state.list[parseInt(this.props.id, 10) - 1],
+              id: this.state.list[listIndex],
               api: 'https://api.prprpr.me/dplayer3/',
               token: 'tokendemo',
               addition: [this.state.danmu],

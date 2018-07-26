@@ -25,6 +25,7 @@ export default class Pagination extends Component {
   }
 
   render() {
+    const navTo = p => (this.props.id ? `../${p}` : `${p}`)
     return (
       <div>
         {/* page-list */}
@@ -41,7 +42,7 @@ export default class Pagination extends Component {
                   }
                   onClick={this.handlePChange.bind(this, p)}
                 >
-                  <Link to={`/${p}`}>
+                  <Link to={navTo(p)}>
                     <p>{p}</p>
                   </Link>
                 </div>
@@ -101,7 +102,7 @@ export default class Pagination extends Component {
                   }
                   onClick={this.handlePChange.bind(this, p)}
                 >
-                  <Link to={`/${p}`}>
+                  <Link to={navTo(p)}>
                     <p>{p}</p>
                   </Link>
                 </div>
