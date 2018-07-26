@@ -48,7 +48,7 @@ export default class DplayerContainer extends Component {
               url: prefix + this.state.list[parseInt(this.props.id, 10) - 1],
             }}
             danmaku={{
-              id: this.state.list[parseInt(this.props.id, 10)],
+              id: this.state.list[parseInt(this.props.id, 10) - 1],
               api: 'https://api.prprpr.me/dplayer3/',
               token: 'tokendemo',
               addition: [this.state.danmu],
