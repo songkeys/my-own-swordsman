@@ -58,7 +58,16 @@ export default class DplayerContainer extends Component {
               // bottom: '15%',
               // unlimited: true,
             }}
-            mutex={[]}
+            contextmenu={[
+              {
+                text: 'Songkeys',
+                link: 'http://songkeys.github.io',
+              },
+              {
+                text: 'GitHub',
+                link: 'https://github.com/Songkeys/my-own-swordsman',
+              },
+            ]}
           />
         )}
         {!this.state.loaded && <div>加载中</div>}

@@ -4,3 +4,5 @@
 
 Watch *My Own Swordman* online with danmaku from Bilibili.
 
+Built with [Dplayer](http://dplayer.js.org/).
+

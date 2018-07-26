@@ -80,7 +80,7 @@ export default class Pagination extends Component {
         >
           <div className="index__intro__src-videoPage-multiP-">
             <div className="index__partNum__src-videoPage-multiP-">
-              <p>分集 (24)</p>
+              <p>分集 (81)</p>
             </div>
             <div className="index__closeBtn__src-videoPage-multiP-">
               <img
