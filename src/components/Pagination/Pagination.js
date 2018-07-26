@@ -9,7 +9,7 @@ export default class Pagination extends Component {
   }
 
   componentDidMount() {
-    this.setState({ current: parseInt(this.props.id, 10) })
+    this.setState({ current: parseInt(this.props.id || 1, 10) })
   }
 
   handlePChange = p => {

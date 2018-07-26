@@ -3,7 +3,7 @@ import Dplayer from 'react-dplayer'
 import axios from 'axios'
 import './DplayerContainer.css'
 
-const prefix = 'http://kakazy-yun.com'
+const prefix = 'https://kakazy-yun.com'
 export default class DplayerContainer extends Component {
   state = {
     loaded: false,
@@ -11,11 +11,12 @@ export default class DplayerContainer extends Component {
   }
 
   componentDidMount() {
-    this.init(this.props.id)
+    this.init(this.props.id || 1)
   }
 
   componentWillReceiveProps(props) {
-    this.init(props.id)
+    console.log(props)
+    this.init(props.id || 1)
   }
 
   init = async id => {
