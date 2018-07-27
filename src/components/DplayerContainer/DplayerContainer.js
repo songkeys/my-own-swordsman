@@ -33,7 +33,7 @@ export default class DplayerContainer extends Component {
       if (s) {
         this.setState({ list: props.resources[s.key] })
       } else {
-        const sourceIndex = localStorage.getItem('sourceIndex')
+        const sourceIndex = localStorage.getItem('sourceIndex') || 1
         const skey = 's' + (parseInt(sourceIndex, 10) + 1)
         if (sourceIndex) {
           this.setState({ list: props.resources[skey] })
@@ -63,7 +63,7 @@ export default class DplayerContainer extends Component {
               url: this.state.list[listIndex],
             }}
             danmaku={{
-              id: `50WZ${this.listIndex}`,
+              id: `50WZ${listIndex}`,
               api: 'https://api.prprpr.me/dplayer3/',
               token: 'tokendemo',
               addition: [this.state.danmu],
