@@ -22,6 +22,8 @@ Watch *My Own Swordman* online with danmaku from Bilibili.
 - B 站弹幕备份
 - 各种视频源
 - [Dplayer](http://dplayer.js.org/) （提供播放器 + 弹幕支持，感谢播放器作者）
+- [Creat-React-App](https://github.com/facebook/create-react-app)
+- B 站手机网页的部分 UI（页面略简陋，纯偷懒 copy～）
 
 ## 视频源说明
 
