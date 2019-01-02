@@ -25,6 +25,8 @@ class App extends Component {
       .get('https://songkeys.github.io/50wz/videos.json')
       .then(res => res.data)
 
+    // const resources = require('./data/videos.json')
+
     this.setState({ resources: resources.data })
   }
 

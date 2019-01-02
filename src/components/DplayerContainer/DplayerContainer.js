@@ -64,7 +64,7 @@ export default class DplayerContainer extends Component {
             }}
             danmaku={{
               id: `50WZ${listIndex}`,
-              api: 'https://api.prprpr.me/dplayer3/',
+              api: 'https://api.prprpr.me/dplayer/',
               token: 'tokendemo',
               addition: [this.state.danmu],
               user: '50wz',
