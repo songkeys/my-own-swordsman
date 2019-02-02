@@ -43,8 +43,8 @@ export default class DplayerContainer extends Component {
       // init danmu
       const danmu =
         props.id === '81'
-          ? `https://songkeys.github.io/50wz/danmu/json/附赠DVD-81集.json`
-          : `https://songkeys.github.io/50wz/danmu/json/第${props.id ||
+          ? process.env.PUBLIC_URL + `/data/danmu/json/附赠DVD-81集.json`
+          : process.env.PUBLIC_URL + `/data/danmu//json/第${props.id ||
               1}回.json`
 
       this.setState({ danmu }, () => {

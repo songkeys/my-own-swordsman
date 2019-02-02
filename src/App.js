@@ -22,7 +22,7 @@ class App extends Component {
 
   getVideoList = async () => {
     const resources = await axios
-      .get('https://songkeys.github.io/50wz/videos.json')
+      .get(process.env.PUBLIC_URL + '/data/videos.json')
       .then(res => res.data)
 
     // const resources = require('./data/videos.json')

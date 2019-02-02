@@ -8,6 +8,11 @@ Watch *My Own Swordman* online with danmaku from Bilibili.
 
 ## 更新
 
+### 2019-02-02
+
+- 修复弹幕加载
+- README 添加视频源说明
+
 ### 2018-06-27
 
 - 增加优酷 m3u8 视频源
@@ -25,6 +30,10 @@ Watch *My Own Swordman* online with danmaku from Bilibili.
 - [Creat-React-App](https://github.com/facebook/create-react-app)
 - B 站手机网页的部分 UI（页面略简陋，纯偷懒 copy～）
 
+## 弹幕源说明
+
+弹幕来自 B 站以前的一个合集，基本都是 6000 条满弹幕。感谢豆瓣网友分享：[教大家如何看有弹幕的武林外传](https://www.douban.com/group/topic/102433010/)。
+
 ## 视频源说明
 
 目前有三个源：
@@ -33,11 +42,8 @@ Watch *My Own Swordman* online with danmaku from Bilibili.
 - 【推荐】优酷高清（81集，推荐，速度快，唯一美中不足的是偶尔有视频自带的上方滚动广告 😫）
 - 爱奇艺渣画质（80集，已挂，获取 m3u8 的签名需即时计算，待修复）
 
-如果你能找到比较高清的 m3u8，或者分集 magnet / 种子的话，欢迎在 [Issues](https://github.com/Songkeys/my-own-swordsman/issues) 分享。
+但是由于这个 B 站合集当时使用的视频源是台湾版本（国语繁字），而大陆版删减删减了一些情节或片头，导致有些集的弹幕时间轴与现在的视频源有严重偏差。
 
-## 弹幕源说明
+所以，希望如果你能找到**台湾版本的在线观看地址**，欢迎在 [Issues](https://github.com/Songkeys/my-own-swordsman/issues) 分享～（如果能找到比较高清的 m3u8，或者分集 magnet / 种子的话，也欢迎分享。）
 
-弹幕来自 B 站以前的一个合集，基本都是 6000 条满弹幕。感谢豆瓣网友分享：[教大家如何看有弹幕的武林外传](https://www.douban.com/group/topic/102433010/)。
-
-但是可能删减的缘故（也有的删了 OP），有些集的弹幕时间轴与现在的视频源有严重偏差，待修复。😢
-
+> 已经找到一个[可能是符合的版本](http://generic-online-cialis.xyz/video/652721486.html)，但由于是电驴下载链接，并不能在网页播放器中直接播放。
