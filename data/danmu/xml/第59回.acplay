@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<AcPlayConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlayerName>bilibili</PlayerName>
+  <PlayerUrl>http://static.hdslb.com/play.swf</PlayerUrl>
+  <WebUrl>http://www.bilibili.tv/video/av208751/index_59.html</WebUrl>
+  <HttpServerPort>7776</HttpServerPort>
+  <ProxyServerPort>7777</ProxyServerPort>
+  <Videos />
+  <Subtitles>
+    <string>第59回.xml</string>
+  </Subtitles>
+  <SpeedLimit>0</SpeedLimit>
+  <ExtraConfig />
+</AcPlayConfiguration>
